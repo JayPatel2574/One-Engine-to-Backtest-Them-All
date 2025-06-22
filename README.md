@@ -75,9 +75,9 @@ This repository implements a modular, extensible event-driven backtester for alg
 
 | File | Description |
 |------|-------------|
-| `cadf.py` | Performs CADF tests and plots residuals for cointegration/pairs trading analysis. |
-| `forecast.py` | Trains classifiers (Logistic Regression, SVM, Random Forest, etc.) on lagged return features. |
-| `sharpe.py` | [Expected] Utilities related to Sharpe ratio computation or validation. |
+| `cadf.py` | Performs CADF tests and plots residuals for cointegration/pairs trading analysis. **Can be run independently** for exploratory analysis. |
+| `forecast.py` | Trains classifiers (Logistic Regression, SVM, Random Forest, etc.) on lagged return features. **Can be run independently** to evaluate predictive ML models. |
+| `sharpe.py` | [Expected] Utilities for computing or validating Sharpe ratios. **Can be run independently** if structured as a utility script. |
 
 ---
 
